@@ -8,7 +8,8 @@ function Nav() {
         <h1>
           <a href="/">
             Northwest <span>Animal Hospital</span>
-          </a>
+            </a>
+        
         </h1>
       </article>
       <aside>
