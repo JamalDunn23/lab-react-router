@@ -26,6 +26,8 @@ function App() {
   const [owners] = useState(ownerData);
   const [pets] = useState(petData);
 
+  // const [onlyCats, setOnlyCats]
+
   return (
 
     <Router>
@@ -38,6 +40,7 @@ function App() {
       <Route path="/staff" element={<StaffList employees={employees} />}/>
       <Route path="/pets" element={<PetsList pets={pets} />}/>
       <Route path="/pets/cats" element={<PetsList pets={pets} />}/>
+      <Route path="/pets/dogs" element={<PetsList pets={pets} />}/>
 
 
       </Routes>
